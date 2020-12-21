@@ -1,0 +1,23 @@
+biblio_homepage:
+    path:     /
+    defaults: { _controller: BiblioBundle:Default:index }
+
+biblio_etudiant:
+    path:    /Etudiant
+    defaults:  { _controller: BiblioBundle:Etudiant:index }
+
+biblio_etudiant_with_id:
+    path:    /Etudiant/{id}
+    defaults:  { _controller: BiblioBundle:Etudiant:Affichage }
+
+biblio_etudiant_with_name:
+    path:    /Etudiant/{name}
+    defaults:  { _controller: BiblioBundle:Etudiant:voir }
+
+list_etudiant:
+    path:    /list
+    defaults:  { _controller: BiblioBundle:Etudiant:list }
+
+ajouter_etudiant:
+    path:    /addEtudiant
+    defaults:  { _controller: BiblioBundle:Etudiant:add }
