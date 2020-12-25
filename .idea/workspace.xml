@@ -10,23 +10,21 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
+    </expand>
+    <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:team" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-    </expand>
-    <select />
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6948039d-9726-43d2-9bc4-a98ea71fb7bf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/AppKernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/AppKernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/routing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/routing.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/symfony_requirements" beforeDir="false" afterPath="$PROJECT_DIR$/bin/symfony_requirements" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/SymfonyRequirements.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/SymfonyRequirements.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BiblioBundle/Controller/EtudiantController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/BiblioBundle/Controller/EtudiantController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BiblioBundle/Resources/config/routing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/BiblioBundle/Resources/config/routing.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BiblioBundle/Resources/views/Etudiant/list.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/BiblioBundle/Resources/views/Etudiant/list.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +45,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="3.4" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
@@ -101,7 +104,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/symfonyLibrairy-master" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -143,6 +146,7 @@
       <workItem from="1608207790556" duration="31000" />
       <workItem from="1608207882196" duration="8624000" />
       <workItem from="1608541358058" duration="1635000" />
+      <workItem from="1608921260086" duration="6189000" />
     </task>
     <servers />
   </component>
@@ -152,11 +156,44 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
-        <entry key="MAIN">
+        <entry key="1">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="team" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="HIGHLIGHTERS">
+                <map>
+                  <entry key="MY_COMMITS" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
@@ -174,45 +211,60 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="979" y="131" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1608210871780" />
-    <state x="826" y="176" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1608217633100">
+    <state x="826" y="176" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1608925544951">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="826" y="176" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.834@0.0.1536.834" timestamp="1608217633100" />
+    <state x="826" y="176" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.834@0.0.1536.834" timestamp="1608925544951" />
     <state x="493" y="294" key="ComposerCompositePathDialog" timestamp="1608198675721">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="493" y="294" key="ComposerCompositePathDialog/0.0.1536.834@0.0.1536.834" timestamp="1608198675721" />
-    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1608209856536">
+    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1608926310722">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1608209856536" />
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1608926310722" />
     <state x="531" y="286" key="FrameworkEditDialogDimensionKey" timestamp="1608198759641">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="531" y="286" key="FrameworkEditDialogDimensionKey/0.0.1536.834@0.0.1536.834" timestamp="1608198759641" />
-    <state width="1493" height="107" key="GridCell.Tab.0.bottom" timestamp="1608544459378">
+    <state width="1467" height="107" key="GridCell.Tab.0.bottom" timestamp="1608925146527">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="107" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1608544459378" />
-    <state width="1493" height="107" key="GridCell.Tab.0.center" timestamp="1608544459378">
+    <state width="1467" height="107" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1608925146527" />
+    <state width="1467" height="107" key="GridCell.Tab.0.center" timestamp="1608925146526">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="107" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1608544459378" />
-    <state width="1493" height="107" key="GridCell.Tab.0.left" timestamp="1608544459378">
+    <state width="1467" height="107" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1608925146526" />
+    <state width="1467" height="107" key="GridCell.Tab.0.left" timestamp="1608925146524">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="107" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1608544459378" />
-    <state width="1493" height="107" key="GridCell.Tab.0.right" timestamp="1608544459378">
+    <state width="1467" height="107" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1608925146524" />
+    <state width="1467" height="107" key="GridCell.Tab.0.right" timestamp="1608925146526">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="107" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1608544459378" />
+    <state width="1467" height="107" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1608925146526" />
     <state x="277" y="62" key="SettingsEditor" timestamp="1608198856501">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="277" y="62" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1608198856501" />
-    <state x="803" y="77" width="672" height="677" key="run.anything.popup" timestamp="1608541596637">
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1608927515780">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="803" y="77" width="672" height="677" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1608541596637" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1608927515780" />
+    <state x="803" y="77" width="672" height="677" key="run.anything.popup" timestamp="1608924433169">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="803" y="77" width="672" height="677" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1608924433169" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/BiblioBundle/Resources/views/Etudiant/list.html.twig</url>
+          <line>2</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

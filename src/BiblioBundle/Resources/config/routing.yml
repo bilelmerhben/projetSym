@@ -15,9 +15,17 @@ biblio_etudiant_with_name:
     defaults:  { _controller: BiblioBundle:Etudiant:voir }
 
 list_etudiant:
-    path:    /list
+    path:    /listEtudiants
     defaults:  { _controller: BiblioBundle:Etudiant:list }
+
+modifier_etudiant:
+    path: /updateEtudiant/{id}
+    defaults: { _controller: BiblioBundle:Etudiant:update }
 
 ajouter_etudiant:
     path:    /addEtudiant
     defaults:  { _controller: BiblioBundle:Etudiant:add }
+
+supprimer_etudiant:
+     path:  /deleteEtudiant/{id}
+     defaults: { _controller: BiblioBundle:Etudiant:delete }

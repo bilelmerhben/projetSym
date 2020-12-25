@@ -1,7 +1,18 @@
-<ul>
+<h1>Liste des étudiants</h1>
+<table border="1">
+    <tr>
+        <td>Id</td>
+        <td>FirstName</td>
+        <td>LastName</td>
+        <td>Supprimer</td>
+    </tr>
     {% for etudiant in etudiants %}
-    <li>
-        {{ etudiant }}
-    </li>
+        <tr>
+            <td>{{ etudiant.id }}</td>
+            <td>{{ etudiant.firstName }}</td>
+            <td>{{ etudiant.lastName }}</td>
+            <td><a href="{{path ("supprimer_etudiant" , {'id' : etudiant.id}) }}">Supprimer</a> </td>
+            <td><a href="{{ path ("modifier_etudiant" , {'id' : etudiant.id}) }}">Modifier</a></td>
+        </tr>
     {% endfor %}
-</ul>
+</table>
