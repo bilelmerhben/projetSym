@@ -10,6 +10,11 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
     </expand>
     <select>
       <path>
@@ -144,6 +149,7 @@
       <workItem from="1608207882196" duration="8624000" />
       <workItem from="1608541358058" duration="1635000" />
       <workItem from="1608921260086" duration="7847000" />
+      <workItem from="1608971861483" duration="971000" />
     </task>
     <task id="LOCAL-00001" summary="firt">
       <created>1608927750508</created>
@@ -169,17 +175,6 @@
                   <entry key="Show.Git.Branches" value="true" />
                 </map>
               </option>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="team" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
             </State>
           </value>
         </entry>
@@ -189,6 +184,17 @@
               <option name="HIGHLIGHTERS">
                 <map>
                   <entry key="MY_COMMITS" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="team" />
+                      </list>
+                    </value>
+                  </entry>
                 </map>
               </option>
             </State>
@@ -236,6 +242,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="531" y="286" key="FrameworkEditDialogDimensionKey/0.0.1536.834@0.0.1536.834" timestamp="1608198759641" />
+    <state x="647" y="315" key="Github.ShareDialog" timestamp="1608972255585">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="647" y="315" key="Github.ShareDialog/0.0.1536.834@0.0.1536.834" timestamp="1608972255585" />
     <state width="1467" height="107" key="GridCell.Tab.0.bottom" timestamp="1608929197372">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -260,10 +270,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1608927825323" />
-    <state x="803" y="77" width="672" height="677" key="run.anything.popup" timestamp="1608924433169">
+    <state x="803" y="77" width="672" height="677" key="run.anything.popup" timestamp="1608971890490">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="803" y="77" width="672" height="677" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1608924433169" />
+    <state x="803" y="77" width="672" height="677" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1608971890490" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
