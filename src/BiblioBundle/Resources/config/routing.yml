@@ -1,3 +1,7 @@
+biblio_book:
+    resource: "@BiblioBundle/Resources/config/routing/book.yml"
+    prefix:   /book
+
 biblio_homepage:
     path:     /
     defaults: { _controller: BiblioBundle:Default:index }
