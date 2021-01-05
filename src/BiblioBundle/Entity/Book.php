@@ -1,7 +1,7 @@
 <?php
 
 namespace BiblioBundle\Entity;
-
+use Symfony\Component\Validator\Constraints as Assert;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
@@ -17,35 +17,41 @@ class Book
     private $id;
 
     /**
+     * @Assert\NotBlank( message = " Ce champ ne doit pas être vide")
      * @ORM\Column(type="string", length=255)
      */
     private $title;
 
     /**
+     * @Assert\NotBlank( message = " Ce champ ne doit pas être vide")
      * @ORM\Column(type="string", length=255)
      */
     private $author;
 
     /**
+     * @Assert\NotBlank( message = " Ce champ ne doit pas être vide")
      * @ORM\Column(type="text")
      */
     private $summary;
 
     /**
+     * @Assert\NotBlank( message = " Ce champ ne doit pas être vide")
      * @ORM\Column(type="date")
      */
     private $publication;
 
     /**
+     *
      * @ORM\Column(type="boolean")
      */
     private $availability;
 
     /**
-     * @ORM\ManyToMany(targetEntity="Etudiant", cascade={"persist", "remove"})
-     * @ORM\JoinColumn(name="modele_id", referencedColumnName="id")
+     * @ORM\ManyToOne(targetEntity="Etudiant")
+     * @ORM\JoinColumn(name="etudiant_id", referencedColumnName="id")
      */
-    private $category;
+    private $emprunterPar;
+
 
     /**
      * @return mixed
@@ -158,6 +164,26 @@ class Book
     {
         $this->category = $category;
     }
+
+    /**
+     * @return mixed
+     */
+    public function getEmprunterPar()
+    {
+        return $this->emprunterPar;
+    }
+
+    /**
+     * @param mixed $emprunterPar
+     */
+    public function setEmprunterPar($emprunterPar)
+    {
+        $this->emprunterPar = $emprunterPar;
+    }
+
+
+
+
 
 
 

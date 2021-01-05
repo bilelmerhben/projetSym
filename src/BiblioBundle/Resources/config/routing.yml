@@ -2,9 +2,10 @@ biblio_book:
     resource: "@BiblioBundle/Resources/config/routing/book.yml"
     prefix:   /book
 
-biblio_homepage:
-    path:     /
-    defaults: { _controller: BiblioBundle:Default:index }
+
+
+
+
 
 biblio_etudiant:
     path:    /Etudiant
@@ -27,7 +28,7 @@ modifier_etudiant:
     defaults: { _controller: BiblioBundle:Etudiant:update }
 
 ajouter_etudiant:
-    path:    /addEtudiant
+    path:    /
     defaults:  { _controller: BiblioBundle:Etudiant:add }
 
 supprimer_etudiant:
