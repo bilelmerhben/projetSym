@@ -94,4 +94,21 @@ class EtudiantController extends Controller
                 'editForm'=>$editform->createView()
             ));
     }
+
+    public function rechercherAction(Request $request){
+        $em=$this->container->get('doctrine')->getEntityManager();
+
+        $etudiants = $em->getRepository('BiblioBundle:Etudiant')->findAll();
+        if($request->getMethod("POST")){
+            $motcle=$request->get('input_recherche');
+            $query=$em->createQuery(
+                "SELECT e FROM BiblioBundle:Etudiant e WHERE e.firstName LIKE '".$motcle."%'"
+            );
+            $etudiants=$query->getResult();
+        }
+        return $this->render('@Biblio/Etudiant/rechercher.html.twig',
+            array(
+                'etudiants'=>$etudiants
+            ));
+    }
 }

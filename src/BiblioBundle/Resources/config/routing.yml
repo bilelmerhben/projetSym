@@ -6,6 +6,9 @@ biblio_book:
 
 
 
+biblio_recherche_Etudiant:
+    path:    /rechercherEtudiant
+    defaults:  { _controller: BiblioBundle:Etudiant:rechercher}
 
 biblio_etudiant:
     path:    /Etudiant
