@@ -52,10 +52,12 @@ class EtudiantController extends Controller
            return $this->redirect($this->generateUrl("list_etudiant"));
 
        }
+
         return $this->render('@Biblio/Etudiant/add.html.twig',
             array(
                 'Form'=>$form->createView()
             ));
+
 
     }
 

@@ -20,7 +20,99 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6948039d-9726-43d2-9bc4-a98ea71fb7bf" name="Default Changelist" comment="RePush(book)" />
+    <list default="true" id="6948039d-9726-43d2-9bc4-a98ea71fb7bf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/img/about.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/img/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/img/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/img/portfolio/portfolio-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/img/portfolio/portfolio-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/img/portfolio/portfolio-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/img/portfolio/portfolio-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/img/portfolio/portfolio-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/img/portfolio/portfolio-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/img/portfolio/portfolio-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/img/portfolio/portfolio-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/img/portfolio/portfolio-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/img/portfolio/portfolio-details-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/img/portfolio/portfolio-details-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/img/portfolio/portfolio-details-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/img/slide/slide-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/img/slide/slide1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/img/slide/slide2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/img/slide/slide3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/img/team/team-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/img/team/team-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/img/team/team-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/img/team/team-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/vendor/animate.css/animate.compat.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/vendor/animate.css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/vendor/animate.css/animate.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/vendor/aos/aos.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/vendor/aos/aos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/vendor/bootstrap/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/vendor/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/vendor/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/vendor/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/vendor/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/vendor/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/vendor/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/vendor/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/vendor/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/vendor/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/vendor/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/vendor/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/vendor/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/vendor/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/vendor/bootstrap/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/vendor/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/vendor/boxicons/css/animations.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/vendor/boxicons/css/boxicons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/vendor/boxicons/css/boxicons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/vendor/boxicons/css/transformations.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/vendor/boxicons/fonts/boxicons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/vendor/boxicons/fonts/boxicons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/vendor/boxicons/fonts/boxicons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/vendor/boxicons/fonts/boxicons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/vendor/boxicons/fonts/boxicons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/vendor/counterup/counterup.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/vendor/icofont/fonts/icofont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/vendor/icofont/fonts/icofont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/vendor/icofont/icofont.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/vendor/isotope-layout/isotope.pkgd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/vendor/isotope-layout/isotope.pkgd.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/vendor/jquery-sticky/jquery.sticky.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/vendor/jquery.easing/jquery.easing.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/vendor/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/vendor/jquery/jquery.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/vendor/owl.carousel/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/vendor/owl.carousel/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/vendor/owl.carousel/assets/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/vendor/owl.carousel/assets/owl.carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/vendor/owl.carousel/assets/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/vendor/owl.carousel/assets/owl.theme.default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/vendor/owl.carousel/assets/owl.theme.default.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/vendor/owl.carousel/assets/owl.theme.green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/vendor/owl.carousel/assets/owl.theme.green.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/vendor/owl.carousel/assets/owl.video.play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/vendor/owl.carousel/owl.carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/vendor/owl.carousel/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/vendor/php-email-form/changelog.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/vendor/php-email-form/validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/vendor/venobox/venobox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/vendor/venobox/venobox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/vendor/venobox/venobox.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/vendor/venobox/venobox.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/assets/vendor/waypoints/jquery.waypoints.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BiblioBundle/Controller/EtudiantController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/BiblioBundle/Controller/EtudiantController.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,18 +191,21 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../symfonyLibrairy-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/BiblioBundle/Resources/views" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.zend.framework.tool" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\XAMPP2\htdocs\projetSym\app" />
+      <recent name="C:\XAMPP2\htdocs\projetSym\src\BiblioBundle\Resources\views\Etudiant" />
+      <recent name="C:\XAMPP2\htdocs\projetSym\src\BiblioBundle\Resources\views\Default" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\XAMPP2\htdocs\projetSym\src\BiblioBundle\Resources\views" />
       <recent name="C:\XAMPP2\htdocs\projetSym\app\public" />
       <recent name="C:\XAMPP2\htdocs\projetSym\app\Resources\views\default" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\XAMPP2\htdocs\projetSym\src\BiblioBundle\Resources\views\Default" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -120,7 +215,6 @@
       <command value="symfony generate:command" />
       <command value="composer dump-autoload" />
       <command value="symfony dump composer.phar" />
-      <command value="c dump-autoload" />
       <command value="symfony generate:bundle" />
       <command value="symfony generate:controller" />
       <command value="symfony doctrine:generate:crud BiblioBundle:Etudiant -n --format=yml --with-write" />
@@ -130,6 +224,7 @@
       <command value="symfony doctrine:database:create" />
       <command value="symfony doctrine:schema:create" />
       <command value="symfony server:start" />
+      <command value="c dump-autoload" />
     </option>
   </component>
   <component name="RunManager">
@@ -163,7 +258,9 @@
       <workItem from="1610282584732" duration="325000" />
       <workItem from="1610368079130" duration="1446000" />
       <workItem from="1610397118667" duration="2713000" />
-      <workItem from="1610456361745" duration="1627000" />
+      <workItem from="1610456361745" duration="2514000" />
+      <workItem from="1610460886129" duration="412000" />
+      <workItem from="1610472257147" duration="2582000" />
     </task>
     <task id="LOCAL-00001" summary="firt">
       <created>1608927750508</created>
@@ -207,7 +304,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610458788070</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="RePush(book)">
+      <created>1610459226033</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1610459226033</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,22 +419,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="647" y="315" key="Github.ShareDialog/0.0.1536.834@0.0.1536.834" timestamp="1608972255585" />
-    <state width="1493" height="140" key="GridCell.Tab.0.bottom" timestamp="1610399871509">
+    <state width="1493" height="140" key="GridCell.Tab.0.bottom" timestamp="1610474101358">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="140" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1610399871509" />
-    <state width="1493" height="140" key="GridCell.Tab.0.center" timestamp="1610399871509">
+    <state width="1493" height="140" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1610474101358" />
+    <state width="1493" height="140" key="GridCell.Tab.0.center" timestamp="1610474101357">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="140" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1610399871509" />
-    <state width="1493" height="140" key="GridCell.Tab.0.left" timestamp="1610399871509">
+    <state width="1493" height="140" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1610474101357" />
+    <state width="1493" height="140" key="GridCell.Tab.0.left" timestamp="1610474101357">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="140" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1610399871509" />
-    <state width="1493" height="140" key="GridCell.Tab.0.right" timestamp="1610399871509">
+    <state width="1493" height="140" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1610474101357" />
+    <state width="1493" height="140" key="GridCell.Tab.0.right" timestamp="1610474101358">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="140" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1610399871509" />
+    <state width="1493" height="140" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1610474101358" />
     <state x="48" y="69" key="SettingsEditor" timestamp="1610399865779">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -339,14 +443,14 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="343" y="326" key="SymfonyPathDialog/0.0.1536.834@0.0.1536.834" timestamp="1610399406318" />
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1610458840496">
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1610459242906">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1610458840496" />
-    <state x="803" y="77" width="672" height="677" key="run.anything.popup" timestamp="1610398659592">
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1610459242906" />
+    <state x="803" y="77" width="672" height="677" key="run.anything.popup" timestamp="1610472942686">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="803" y="77" width="672" height="677" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1610398659592" />
+    <state x="803" y="77" width="672" height="677" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1610472942686" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
