@@ -1,0 +1,70 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>{% block title %}Welcome!{% endblock %}</title>
+    {% block stylesheets %}
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="{{asset("css/main.css")}}">{% endblock %}
+    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+</head>
+<body>
+
+<main class="container my-5">
+
+    {% block body %}
+        <h1>Description du livre</h1>
+
+        <table class="table table-success" border="1">
+            <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ book.id }}</td>
+            </tr>
+            <tr>
+                <th>Title</th>
+                <td>{{ book.title }}</td>
+            </tr>
+            <tr>
+                <th>Author</th>
+                <td>{{ book.author }}</td>
+            </tr>
+            <tr>
+                <th>Summary</th>
+                <td>{{ book.summary }}</td>
+            </tr>
+            <tr>
+                <th>Publication</th>
+                <td>{% if book.publication %}{{ book.publication|date('Y-m-d') }}{% endif %}</td>
+            </tr>
+            <tr>
+                <th>Availability</th>
+                <td>{% if book.availability %}Yes{% else %}No{% endif %}</td>
+            </tr>
+            </tbody>
+        </table>
+
+        <ul>
+            <li>
+                <a href="{{ path('book_index') }}">Voir la liste des livres</a>
+
+            <li>
+                <a href="{{ path('book_edit', { 'id': book.id }) }}">Modifier</a>
+            </li>
+
+                {{ form_start(delete_form) }}
+                <input type="submit" value="Supprimer" class="btn btn-dark mb-3 my-5" >
+                {{ form_end(delete_form) }}
+
+        </ul>
+    {% endblock %}
+
+    {% block javascripts %}
+    {% endblock %}
+</main>
+</body>
+</html>
+

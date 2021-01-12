@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>{% block title %}Welcome!{% endblock %}</title>
+    {% block stylesheets %}
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="{{asset("css/main.css")}}">{% endblock %}
+    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+</head>
+<body>
+
+<main class="container my-5">
+    {% block body %}
+        <h1>Liste des Livres</h1>
+
+        <table class="table table-dark"  border="1">
+            <thead>
+            <tr>
+                <th>Id</th>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Summary</th>
+                <th>Publication</th>
+                <th>Availability</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for book in books %}
+                <tr>
+                    <td><a href="{{ path('book_show', { 'id': book.id }) }}">{{ book.id }}</a></td>
+                    <td>{{ book.title }}</td>
+                    <td>{{ book.author }}</td>
+                    <td>{{ book.summary }}</td>
+                    <td>{% if book.publication %}{{ book.publication|date('Y-m-d') }}{% endif %}</td>
+                    <td>{% if book.availability %}Yes{% else %}No{% endif %}</td>
+                    <td>
+                        <ul>
+                            <li>
+                                <a href="{{ path('book_show', { 'id': book.id }) }}">Afficher</a>
+                            </li>
+                            <li>
+                                <a href="{{ path('book_edit', { 'id': book.id }) }}">Modifier</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+
+        <ul>
+            <li>
+                <a href="{{ path('book_new') }}">Créer un nouveau Livre</a>
+            </li>
+        </ul>
+    {% endblock %}
+</main>
+</body>
+</html>

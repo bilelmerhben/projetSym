@@ -20,10 +20,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6948039d-9726-43d2-9bc4-a98ea71fb7bf" name="Default Changelist" comment="book">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BiblioBundle/Resources/config/routing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/BiblioBundle/Resources/config/routing.yml" afterDir="false" />
-    </list>
+    <list default="true" id="6948039d-9726-43d2-9bc4-a98ea71fb7bf" name="Default Changelist" comment="RePush(book)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -166,7 +163,7 @@
       <workItem from="1610282584732" duration="325000" />
       <workItem from="1610368079130" duration="1446000" />
       <workItem from="1610397118667" duration="2713000" />
-      <workItem from="1610456361745" duration="1255000" />
+      <workItem from="1610456361745" duration="1627000" />
     </task>
     <task id="LOCAL-00001" summary="firt">
       <created>1608927750508</created>
@@ -203,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610282849385</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="RePush(book)">
+      <created>1610458788070</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1610458788070</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,17 +275,18 @@
     <MESSAGE value="ajout Book" />
     <MESSAGE value="p" />
     <MESSAGE value="book" />
-    <option name="LAST_COMMIT_MESSAGE" value="book" />
+    <MESSAGE value="RePush(book)" />
+    <option name="LAST_COMMIT_MESSAGE" value="RePush(book)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="348" y="72" key="#CLI_Interpreters" timestamp="1609875551056">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="348" y="72" key="#CLI_Interpreters/0.0.1536.834@0.0.1536.834" timestamp="1609875551056" />
-    <state x="522" y="241" key="#Notifications" timestamp="1608198908469">
+    <state x="522" y="241" key="#Notifications" timestamp="1610458863712">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="522" y="241" key="#Notifications/0.0.1536.834@0.0.1536.834" timestamp="1608198908469" />
+    <state x="522" y="241" key="#Notifications/0.0.1536.834@0.0.1536.834" timestamp="1610458863712" />
     <state x="909" y="223" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608216583105">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -334,10 +339,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="343" y="326" key="SymfonyPathDialog/0.0.1536.834@0.0.1536.834" timestamp="1610399406318" />
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1610282862153">
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1610458840496">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1610282862153" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1610458840496" />
     <state x="803" y="77" width="672" height="677" key="run.anything.popup" timestamp="1610398659592">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
